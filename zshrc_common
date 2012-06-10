@@ -6,5 +6,5 @@ RPROMPT="%{${fg[default]}%}%B%(7~,.../,)%6~%b%{${fg[default]}%}"
 alias cls='tput clear'
 alias diff='diff -u'
 alias s='cd ..'
-
+alias sou="source ~/.zshrc"
 
