@@ -1,0 +1,10 @@
+#Assuming is oh-my-zsh is installed
+
+PROMPT='%{$fg_bold[cyan]%}☁ %{$fg_bold[green]%}%p %{$fg_bold[cyan]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}'
+RPROMPT="%{${fg[default]}%}%B%(7~,.../,)%6~%b%{${fg[default]}%}"
+
+alias cls='tput clear'
+alias diff='diff -u'
+alias s='cd ..'
+
+
