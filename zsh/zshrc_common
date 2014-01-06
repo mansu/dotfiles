@@ -8,3 +8,18 @@ alias diff='diff -u'
 alias s='cd ..'
 alias sou="source ~/.zshrc"
 
+alias vi=vim
+
+export EDITOR=vim
+
+export HISTFILE=~/.history
+export HISTSIZE=1000000
+export SAVEHIST=1000000
+setopt HISTAPPEND
+setopt HIST_FIND_NO_DUPS
+setopt HIST_EXPIRE_DUPS_FIRST
+setopt HIST_IGNORE_DUPS
+
+# git related
+alias g=git
+alias gd="git difftool -y -t Kaleidoscope"
