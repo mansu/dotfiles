@@ -8,6 +8,7 @@
   df = diff
   lg = log -p
   ls = branch
+  graph = log --graph --oneline --decorate
 [color]
   diff = auto
   status = auto
