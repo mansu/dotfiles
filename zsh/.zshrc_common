@@ -24,3 +24,8 @@ setopt HIST_IGNORE_DUPS
 alias g=git
 # Depends on icdiff. Install it via brew install icdiff
 alias gd="git icdiff"
+
+# Maven related aliases.
+alias m=mvn
+alias mp='mvn package'
+alias mt='mvn test'
