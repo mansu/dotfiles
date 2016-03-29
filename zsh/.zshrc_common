@@ -22,4 +22,5 @@ setopt HIST_IGNORE_DUPS
 
 # git related
 alias g=git
-alias gd="git difftool -y -t Kaleidoscope"
+# Depends on icdiff. Install it via brew install icdiff
+alias gd="git icdiff"
