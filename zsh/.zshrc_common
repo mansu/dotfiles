@@ -24,6 +24,8 @@ setopt HIST_IGNORE_DUPS
 alias g=git
 # Depends on icdiff. Install it via brew install icdiff
 alias gd="git icdiff"
+# Tiny commit
+alias tiny="git commit -a -m 'tiny'"
 
 # Maven related aliases.
 alias m=mvn
