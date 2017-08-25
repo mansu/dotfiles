@@ -60,4 +60,5 @@ set expandtab
 " case insensitive search
 set ignorecase
 set smartcase
-
+set rnu 
+set nu
