@@ -8,3 +8,5 @@ cp -v zsh/.zshrc_local ~/.zshrc_local
 
 brew install ccat
 brew install ag
+# CLI for managing mac
+brew install mas m-cli
